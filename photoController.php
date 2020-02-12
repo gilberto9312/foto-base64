@@ -1,4 +1,5 @@
-        if (isset($_FILES["foto"])){
+<?php
+if (isset($_FILES["foto"])){
 
             $foto_name= $_FILES["foto"]["name"];
 
@@ -52,4 +53,6 @@
 
             $fot = NULL;
 
-        } 
+	} 
+
+?>
